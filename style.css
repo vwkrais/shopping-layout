@@ -1,0 +1,76 @@
+html {
+  --standard-grid-margin: 1.7rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Quicksand", sans-serif;
+}
+
+.main {
+  margin: var(--standard-grid-margin);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--standard-grid-margin);
+}
+
+.img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.smooth-transition {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 1),
+    70%,
+    rgba(255, 255, 255, 0.1)
+  );
+  position: relative;
+  top: -4.8rem;
+  /* background-color: aqua; */
+  /* background-image: orange; */
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(255, 0, 0, 0)); */
+}
+
+.main-shoe-type {
+  border: 2px purple solid;
+  border-radius: 1rem;
+}
+
+.color-picker {
+  /* height: 1rem;
+  width: 1rem;
+  border-radius: 50%; */
+  display: inline;
+}
+
+.radio {
+  display: none;
+}
+
+.label {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.label-red {
+  color: red;
+  background-color: red;
+}
+
+.label-blue {
+  background-color: blue;
+  color: blue;
+}
+
+.label-black {
+  background-color: black;
+}
